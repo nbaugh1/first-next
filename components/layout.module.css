@@ -1,13 +1,37 @@
-.container {
+/* .container {
   max-width: 36rem;
   padding: 0 1rem;
   margin: 3rem auto 6rem;
+} */
+
+.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  width: 100%;
+}
+
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav li {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 }
 
 .header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 10px;
 }
 
 .headerImage {
